@@ -1,7 +1,7 @@
-import project1 from "@/public/images/projects/project1.png";
-import project2 from "@/public/images/projects/project2.png";
-import project3 from "@/public/images/projects/project3.png";
-import project4 from "@/public/images/projects/project4.png";
+import project1 from "@/public/images/projects/project1.PNG";
+import project2 from "@/public/images/projects/project2.PNG";
+import project3 from "@/public/images/projects/project3.PNG";
+import project4 from "@/public/images/projects/project4.PNG";
 import css from "styled-jsx/css";
 
 export const featuredProjects = [
@@ -65,31 +65,3 @@ export const projects = [
  
 ];
 
-
-//name: "WorkinAus",
-// image: project1,
-// detail:
-//   "WorkinAUS is a job marketplace that connects international job seekers with Australian recruiters. Our platform provides exciting career opportunities for global professionals and access to a diverse talent pool for Australian companies.",
-// tech: ["React.js", "MongoDB", "Express JS", "Tailwind Css"],
-// webUrl: "https://workinaus.com.au/",
-// githubUrl: "",
-
-//  1. name : Queens-Pint
-//  detail : it is a fast food restaurant located in uk so add a three lines details in it 
-//  tech : react js , javascript , tailwind css
-//  weburl : https://queens-pint.netlify.app/
-
-//  2. name : Ezitech-Institue
-//  detail : it is an internship given platform which gaves remote internships to students so i design its frontend write this in three or two lines
-//  tech : react js , javascript , tailwind css
-//  weburl : https://ezitech-institute.netlify.app/
-
-//  3. name : RAW-etc
-//  detail : it is an e-commerce website which sells hats so write this its explanation in three or two lines 
-//  tech : react js , javascript , tailwind css
-//  weburl : https://hatstore.netlify.app/shop
-
-//  4. name : Feelo
-//  detail : it is a food and hostel room giving website i design its frontend write this in two or three lines.
-//  tech : react js , javascript , tailwind css
-//  weburl : https://feelo.netlify.app/
