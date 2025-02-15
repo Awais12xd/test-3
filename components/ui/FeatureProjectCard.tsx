@@ -24,16 +24,10 @@ type FeatureProductProps = {
 const FeatureProjectCard = ({ project, index }: FeatureProductProps) => {
   return (
     <div
-      className="relative project-layer md:bg-none bg-cover bg-center md:p-0 px-6 py-7"
+      className="relative project-layer  bg-cover bg-center md:p-0 px-6 py-7"
       style={{ backgroundImage: `url(/images/projects/project${index + 1}.PNG)` }}
     >
-      <Link href={project.webUrl} legacyBehavior>
-        <a target="_blank" className="md:block hidden">
-          <div className={`relative project_image_layer xl:w-[580px] w-1/2 cursor-pointer overflow-hidden select-none ${index % 2 !== 0 && "ml-auto"} rounded`}>
-            <Image src="/images/projects/project1.PNG" alt="project" />
-          </div>
-        </a>
-      </Link>
+     
       <div className={`md:absolute relative md:top-1/2 ${index % 2 === 0 ? "md:right-0 md:items-end" : "left-0 items-start"} transform md:-translate-y-1/2 lg:max-w-lg md:max-w-sm flex flex-col md:z-10 z-20`}>
         <p className="text-[13px] text-primary tracking-widest">Featured Project</p>
         <Link href={project.webUrl} legacyBehavior>
