@@ -17,7 +17,7 @@ type FeatureProductProps = {
 
 const FeatureProjectCard = ({ project, index }: FeatureProductProps) => {
   return (
-    <div className={`relative project-layer md:bg-none bg-cover bg-center md:p-0 px-6 py-7`} style={{backgroundImage: `url(/images/projects/project${index+1}.PNG)`}} >
+    <div className={`relative project-layer md:bg-none bg-cover bg-center md:p-0 px-6 py-7`} style={{backgroundImage: `url(/images/projects/project${index+1}.png)`}} >
       <Link href={project.webUrl} legacyBehavior >
         <a target="_blank" className="md:block hidden">
           <div
