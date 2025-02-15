@@ -1,13 +1,13 @@
-import project1 from "@/public/images/projects/project1.PNG";
-import project2 from "@/public/images/projects/project2.PNG";
-import project3 from "@/public/images/projects/project3.PNG";
-import project4 from "@/public/images/projects/project4.PNG";
+// import project1 from "@/public/images/projects/project1.PNG";
+// import project2 from "@/public/images/projects/project2.PNG";
+// import project3 from "@/public/images/projects/project3.PNG";
+// import project4 from "@/public/images/projects/project4.PNG";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const projectImages = [project1, project2, project3, project4];
+// const projectImages = [project1, project2, project3, project4];
 
 type FeatureProductProps = {
   index: number;
@@ -25,12 +25,12 @@ const FeatureProjectCard = ({ project, index }: FeatureProductProps) => {
   return (
     <div
       className="relative project-layer md:bg-none bg-cover bg-center md:p-0 px-6 py-7"
-      // style={{ backgroundImage: `url(@/public/images/projects/project${index + 1}.PNG)` }}
+      style={{ backgroundImage: `url(/images/projects/project${index + 1}.PNG)` }}
     >
       <Link href={project.webUrl} legacyBehavior>
         <a target="_blank" className="md:block hidden">
           <div className={`relative project_image_layer xl:w-[580px] w-1/2 cursor-pointer overflow-hidden select-none ${index % 2 !== 0 && "ml-auto"} rounded`}>
-            {/* <Image src={projectImages[index]} alt="project" /> */}
+            <Image src="/images/projects/project1.PNG" alt="project" />
           </div>
         </a>
       </Link>
