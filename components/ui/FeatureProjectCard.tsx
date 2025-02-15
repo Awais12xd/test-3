@@ -30,7 +30,7 @@ const FeatureProjectCard = ({ project, index }: FeatureProductProps) => {
       <Link href={project.webUrl} legacyBehavior>
         <a target="_blank" className="md:block hidden">
           <div className={`relative project_image_layer xl:w-[580px] w-1/2 cursor-pointer overflow-hidden select-none ${index % 2 !== 0 && "ml-auto"} rounded`}>
-            <Image src={projectImages[index]} alt="project" />
+            {/* <Image src={projectImages[index]} alt="project" /> */}
           </div>
         </a>
       </Link>
